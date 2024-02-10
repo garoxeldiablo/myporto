@@ -2,7 +2,7 @@ import { PaperClipIcon } from '@heroicons/react/20/solid'
 
 export default function Certification() {
   return (
-    <div className="bg-gray-100 p-14 m-14 max-md:p-2 max-md:m-2 rounded-md">
+    <div id='certification' className="bg-gray-100 p-14 m-14 max-md:p-2 max-md:m-2 rounded-md">
       <div className="px-4 sm:px-0">
         <h3 className="text-base font-semibold leading-7 text-gray-900">Certification</h3>
         <p className="mt-1 max-w-2xl text-sm leading-6 text-gray-500">Personal details and certification.</p>

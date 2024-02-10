@@ -1,6 +1,6 @@
 export default function Section(){
     return(
-        <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical p-20">
+        <ul id="experience" className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical p-20">
         <div className="text-5xl text-center mb-10">
             Experience.
         </div>

@@ -2,7 +2,7 @@ import { ChevronRightIcon } from '@heroicons/react/20/solid'
 
 export default function Example() {
   return (
-    <div className="relative isolate overflow-hidden bg-white">
+    <div id='linkedin' className="relative isolate overflow-hidden bg-white">
       <svg
         className="absolute inset-0 -z-10 h-full w-full stroke-gray-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
         aria-hidden="true"
@@ -44,7 +44,7 @@ export default function Example() {
           </p>
           <div className="mt-10 flex items-center gap-x-6">
             <a
-              href="#"
+              href="https://www.linkedin.com/in/jovis-jocunda/"
               className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
               Jump to Linked.in

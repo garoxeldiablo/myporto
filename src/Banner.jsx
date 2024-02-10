@@ -35,10 +35,10 @@ export default function Banner() {
           interested in working together? feel free to contact me.
         </p>
         <a
-          href="#"
+          href="https://wa.me/62895611113751?text=I%20just%20saw%20your%20website"
           className="flex-none rounded-full bg-gray-900 px-3.5 py-1 text-sm font-semibold text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900"
         >
-          Contact me <span aria-hidden="true">&rarr;</span>
+          whatsapp <span aria-hidden="true">&rarr;</span>
         </a>
       </div>
     </div>
