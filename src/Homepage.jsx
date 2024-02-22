@@ -15,7 +15,7 @@ export default function Homepage(){
         {/* Hero */}
         <div className="hero min-h-screen bg-[url('https://img.freepik.com/free-photo/white-painted-wall-texture-background_53876-138197.jpg')]">
             <div className="hero-content my-32 flex-col lg:flex-row">
-                <img data-aos="fade-right" src="./src/assets/1702711021327.jpg" className="filter grayscale max-w-s rounded-lg shadow-2xl m-8" />
+                <img data-aos="fade-right" src="/1702711021327.jpg" className="filter grayscale max-w-s rounded-lg shadow-2xl m-8" />
                 <div data-aos="fade-left">
                 <h1 className="text-5xl font-bold text-gray-900">Hello folks !</h1>
                 <p className="py-6 text-gray-800">my name is Jovis. I am 23 years old and have a hobby of playing games. I enjoy solving code puzzles and exploring the world of software development. My desire to continue learning, innovating and creating technology solutions that benefit many people is what push me in this field.</p>
@@ -320,7 +320,7 @@ export default function Homepage(){
                     <div className="max-w-3xl flex-none sm:max-w-5xl lg:max-w-none">
                         <div className="-m-2 rounded-xl bg-gray-900/5 p-2 ring-1 ring-inset ring-gray-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
                         <img
-                            src="src\assets\sslinkedin.png"
+                            src="/sslinkedin.png"
                             alt="App screenshot"
                             width={2432}
                             height={1442}
