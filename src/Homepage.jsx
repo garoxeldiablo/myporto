@@ -1,4 +1,4 @@
-import { PaperClipIcon, ChevronRightIcon} from '@heroicons/react/20/solid'
+import { ChevronRightIcon} from '@heroicons/react/20/solid'
 import { useEffect } from 'react'
 import Aos from 'aos'
 import 'aos/dist/aos.css';
@@ -14,7 +14,7 @@ export default function Homepage(){
     <div>
         {/* Hero */}
         <div className="hero min-h-screen bg-[url('https://img.freepik.com/free-photo/white-painted-wall-texture-background_53876-138197.jpg')]">
-            <div className="hero-content my-32 flex-col lg:flex-row">
+            <div className="hero-content flex-col lg:flex-row">
                 <img data-aos="fade-right" src="/1702711021327.jpg" className="filter grayscale max-w-s rounded-lg shadow-2xl m-8" />
                 <div data-aos="fade-left">
                 <h1 className="text-5xl font-bold text-gray-900">Hello folks !</h1>
