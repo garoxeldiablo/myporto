@@ -1,5 +1,5 @@
 import { ChevronRightIcon} from '@heroicons/react/20/solid'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import Aos from 'aos'
 import 'aos/dist/aos.css';
 
