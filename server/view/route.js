@@ -3,6 +3,6 @@ import express from "express";
 
 const route = express.Router()
 
-route.get('/cert', dataCert);
+route.get('/cert/:id', dataCert);
 
 export default route;

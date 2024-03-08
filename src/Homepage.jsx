@@ -10,6 +10,7 @@ export default function Homepage(){
             once: true
         })
     })
+    
     return(
     <div>
         {/* Hero */}
