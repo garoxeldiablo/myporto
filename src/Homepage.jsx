@@ -112,7 +112,7 @@ export default function Homepage(){
                 This certification is the result of my experience learning about web development. I understand HTML/CSS, Javascript, Node.Js, API, MySQL, and Postman. and understand the concept of Frontend frameworks, one of which is Vite and React
                 </dd>
             </div>
-            <div className="h-auto flex items-center mt-4">
+            <div className="h-auto flex py-6 items-center mt-4">
                 <div className="w-screen flex space-x-4 snap-proximity snap-x overflow-x-auto no-scrollbar">
                     {cards.map((card) => card)}
                 </div>
