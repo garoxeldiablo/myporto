@@ -1,4 +1,4 @@
-import { ChevronRightIcon} from '@heroicons/react/20/solid'
+import { ChevronRightIcon, PaperClipIcon} from '@heroicons/react/20/solid'
 import { useEffect, useState } from 'react'
 import Aos from 'aos'
 import 'aos/dist/aos.css';
@@ -10,6 +10,14 @@ export default function Homepage(){
             once: true
         })
     })
+
+    const cards = [
+        <img key="1" src="/public/sert1.png" alt="" />,
+        <img key="2" src="/public/sert1.png" alt="" />,
+        <img key="3" src="/public/sert1.png" alt="" />,
+        <img key="4" src="/public/sert1.png" alt="" />,
+        <img key="5" src="/public/sert1.png" alt="" />,
+    ]
     
     return(
     <div>
@@ -104,41 +112,11 @@ export default function Homepage(){
                 This certification is the result of my experience learning about web development. I understand HTML/CSS, Javascript, Node.Js, API, MySQL, and Postman. and understand the concept of Frontend frameworks, one of which is Vite and React
                 </dd>
             </div>
-            {/* <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-                <dt className="text-sm font-medium leading-6 text-gray-900">Attachments</dt>
-                <dd className="mt-2 text-sm text-gray-900 sm:col-span-2 sm:mt-0">
-                <ul role="list" className="divide-y divide-gray-100 rounded-md">
-                    <li className="flex items-center justify-between py-4 pl-4 pr-5 text-sm leading-6">
-                    <div className="flex w-0 flex-1 items-center">
-                        <PaperClipIcon className="h-5 w-5 flex-shrink-0 text-gray-400" aria-hidden="true" />
-                        <div className="ml-4 flex min-w-0 flex-1 gap-2">
-                        <span className="truncate font-medium">resume_back_end_developer.pdf</span>
-                        <span className="flex-shrink-0 text-gray-400">2.4mb</span>
-                        </div>
-                    </div>
-                    <div className="ml-4 flex-shrink-0">
-                        <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
-                        Download
-                        </a>
-                    </div>
-                    </li>
-                    <li className="flex items-center justify-between py-4 pl-4 pr-5 text-sm leading-6">
-                    <div className="flex w-0 flex-1 items-center">
-                        <PaperClipIcon className="h-5 w-5 flex-shrink-0 text-gray-400" aria-hidden="true" />
-                        <div className="ml-4 flex min-w-0 flex-1 gap-2">
-                        <span className="truncate font-medium">coverletter_back_end_developer.pdf</span>
-                        <span className="flex-shrink-0 text-gray-400">4.5mb</span>
-                        </div>
-                    </div>
-                    <div className="ml-4 flex-shrink-0">
-                        <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
-                        Download
-                        </a>
-                    </div>
-                    </li>
-                </ul>
-                </dd>
-            </div> */}
+            <div className="h-auto flex items-center mt-4">
+                <div className="w-screen flex space-x-4 snap-proximity snap-x overflow-x-auto no-scrollbar">
+                    {cards.map((card) => card)}
+                </div>
+            </div>
             </dl>
         </div>
         </div>

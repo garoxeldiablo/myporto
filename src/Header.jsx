@@ -18,8 +18,8 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const profil = [
     { name: 'Psychometric', description: 'Metric my soft skill by snaphunt', href: 'https://drive.google.com/file/d/1uC28D5Uu15PCQNIkrD06lEfDPg97Uzgo/view?usp=sharing', icon: ChartPieIcon, },
-    { name: 'Collaboration', description: 'Speak and work with my team', href: 'https://drive.google.com/file/d/1sdF7InWLWkNMQn9cPn8q60S0_g2rNnNl/view?usp=sharing', icon: CursorArrowRaysIcon },
-    { name: 'My project', description: 'What I have built?', href: '#', icon: SquaresPlusIcon },
+    { name: 'Collaboration', description: 'Speak and work with my team', href: '', icon: CursorArrowRaysIcon },
+    { name: 'My project', description: 'What I have built?', href: 'https://drive.google.com/file/d/1sdF7InWLWkNMQn9cPn8q60S0_g2rNnNl/view?usp=sharing', icon: SquaresPlusIcon },
   ]
   
     return (
@@ -69,7 +69,7 @@ export default function Header() {
                           <item.icon className="h-6 w-6 text-gray-600 group-hover:text-indigo-600" aria-hidden="true" />
                         </div>
                         <div className="flex-auto">
-                          <a href={item.href} className="block font-semibold text-gray-900">
+                          <a href={item.href} className="block font-semibold text-gray-900" target="_blank">
                             {item.name}
                             <span className="absolute inset-0" />
                           </a>
