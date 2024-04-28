@@ -12,11 +12,11 @@ export default function Homepage(){
     })
 
     const cards = [
-        <img key="1" src="/public/sert1.png" alt="" />,
-        <img key="2" src="/public/sert1.png" alt="" />,
-        <img key="3" src="/public/sert1.png" alt="" />,
-        <img key="4" src="/public/sert1.png" alt="" />,
-        <img key="5" src="/public/sert1.png" alt="" />,
+        <img key="1" src="/public/sert1.png" alt="" className='lg:h-40 lg:w-60 w-3/4 m-2'/>,
+        <img key="2" src="/public/sert2.png" alt="" className='lg:h-40 lg:w-60 w-3/4 m-2'/>,
+        <img key="3" src="/public/sert3.jpg" alt="" className='lg:h-40 lg:w-60 w-3/4 m-2'/>,
+        <img key="4" src="/public/sert4.jpg" alt="" className='lg:h-40 lg:w-60 w-3/4 m-2'/>,
+        <img key="5" src="/public/sert5.png" alt="" className='lg:h-40 lg:w-60 w-3/4 m-2'/>,
     ]
     
     return(
@@ -103,18 +103,14 @@ export default function Homepage(){
                 <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">jocjovis@gmail.com</dd>
             </div>
             <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-                <dt className="text-sm font-medium leading-6 text-gray-900">Salary expectation</dt>
-                <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">I don't expect a higher salary, because I am still in the learning process and am willing to be paid voluntarily for an internship</dd>
-            </div>
-            <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
                 <dt className="text-sm font-medium leading-6 text-gray-900">About</dt>
                 <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
                 This certification is the result of my experience learning about web development. I understand HTML/CSS, Javascript, Node.Js, API, MySQL, and Postman. and understand the concept of Frontend frameworks, one of which is Vite and React
                 </dd>
             </div>
-            <div className="h-auto flex py-6 items-center mt-4">
-                <div className="w-screen flex space-x-4 snap-proximity snap-x overflow-x-auto no-scrollbar">
-                    {cards.map((card) => card)}
+            <div className="flex justify-center">
+                <div className="lg:grid lg:grid-cols-3 lg:m-8">
+                    {cards.map((card) => card  )}
                 </div>
             </div>
             </dl>

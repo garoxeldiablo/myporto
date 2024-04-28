@@ -1,10 +1,8 @@
-import { Fragment, useState, useEffect } from 'react'
+import { Fragment, useState } from 'react'
 import { Dialog, Disclosure, Popover, Transition } from '@headlessui/react'
-import { useParams } from 'react-router-dom'
 import {
   Bars3Icon,
   ChartPieIcon,
-  CursorArrowRaysIcon,
   SquaresPlusIcon,
   XMarkIcon,
 } from '@heroicons/react/24/outline'
@@ -18,7 +16,6 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const profil = [
     { name: 'Psychometric', description: 'Metric my soft skill by snaphunt', href: 'https://drive.google.com/file/d/1uC28D5Uu15PCQNIkrD06lEfDPg97Uzgo/view?usp=sharing', icon: ChartPieIcon, },
-    { name: 'Collaboration', description: 'Speak and work with my team', href: '', icon: CursorArrowRaysIcon },
     { name: 'My project', description: 'What I have built?', href: 'https://drive.google.com/file/d/1sdF7InWLWkNMQn9cPn8q60S0_g2rNnNl/view?usp=sharing', icon: SquaresPlusIcon },
   ]
   
