@@ -1,5 +1,5 @@
-import { ChevronRightIcon, PaperClipIcon} from '@heroicons/react/20/solid'
-import { useEffect, useState } from 'react'
+import { ChevronRightIcon} from '@heroicons/react/20/solid'
+import { useEffect } from 'react'
 import Aos from 'aos'
 import 'aos/dist/aos.css';
 
@@ -12,11 +12,11 @@ export default function Homepage(){
     })
 
     const cards = [
-        <img key="1" src="/public/sert1.png" alt="" className='lg:h-40 lg:w-60 w-3/4 m-2'/>,
-        <img key="2" src="/public/sert2.png" alt="" className='lg:h-40 lg:w-60 w-3/4 m-2'/>,
-        <img key="3" src="/public/sert3.jpg" alt="" className='lg:h-40 lg:w-60 w-3/4 m-2'/>,
-        <img key="4" src="/public/sert4.jpg" alt="" className='lg:h-40 lg:w-60 w-3/4 m-2'/>,
-        <img key="5" src="/public/sert5.png" alt="" className='lg:h-40 lg:w-60 w-3/4 m-2'/>,
+        <img key="1" src="/sert1.png" alt="" className='lg:h-40 lg:w-60 w-3/4 m-2'/>,
+        <img key="2" src="/sert2.png" alt="" className='lg:h-40 lg:w-60 w-3/4 m-2'/>,
+        <img key="3" src="/sert3.jpg" alt="" className='lg:h-40 lg:w-60 w-3/4 m-2'/>,
+        <img key="4" src="/sert4.jpg" alt="" className='lg:h-40 lg:w-60 w-3/4 m-2'/>,
+        <img key="5" src="/sert5.png" alt="" className='lg:h-40 lg:w-60 w-3/4 m-2'/>,
     ]
     
     return(
