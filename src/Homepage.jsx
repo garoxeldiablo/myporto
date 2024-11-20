@@ -17,6 +17,7 @@ export default function Homepage(){
         <img key="3" src="/sert3.jpg" alt="" className='lg:h-40 lg:w-60 w-3/4 m-2'/>,
         <img key="4" src="/sert4.jpg" alt="" className='lg:h-40 lg:w-60 w-3/4 m-2'/>,
         <img key="5" src="/sert5.png" alt="" className='lg:h-40 lg:w-60 w-3/4 m-2'/>,
+        <img key="5" src="/sert6.jpg" alt="" className='lg:h-40 lg:w-60 w-3/4 m-2'/>
     ]
     
     return(
@@ -58,7 +59,7 @@ export default function Homepage(){
                 <time className="font-mono italic">2021</time>
                 <div className="text-lg font-black">IT Support</div>
                 <p className="font-light italic text-sm mb-4">CV. Medan Media Utama</p>
-                I am responsible for increasing sales, innovating, and providing consulting services to consumers. I guarantee customer service starting from product selection, ordering process, credit application, to delivery of units to consumers.
+                I am responsible for performing server computer maintenance. I managed to minimize problems and carry out analysis quickly so that treatment time could be shortened.
                 </div>
                 <hr/>
             </li>
@@ -70,7 +71,7 @@ export default function Homepage(){
                 <time className="font-mono italic">2023</time>
                 <div className="text-lg font-black">Front End Development (Intern)</div>
                 <p className="font-light italic text-sm mb-4">PT. Mitra Telematika Utama</p>
-                I am responsible for increasing sales, innovating, and providing consulting services to consumers. I guarantee customer service starting from product selection, ordering process, credit application, to delivery of units to consumers.
+                I was given the opportunity to create a landing page using React and TailWindcss, I created this landing page to convey information about the fitness center's company profile.
                 </div>
                 <hr/>
             </li>
@@ -91,11 +92,12 @@ export default function Homepage(){
             <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
                 <dt className="text-sm font-medium leading-6 text-gray-900">Certification</dt>
                     <div>
-                    <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">Learn Web Programming Basics (dicoding)</dd>
-                    <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">Learn JavaScript Programming Basics (dicoding)</dd>
-                    <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">Learn to Create a Web Front-End for Beginners (dicoding)</dd>
-                    <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">Learn DevOps Basics (dicoding)</dd>
-                    <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">Data and Software Engineering (Revou)</dd>
+                    <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">Belajar Membuat Front-End Web Untuk Pemula (dicoding)</dd>
+                    <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">Intro to Product Management (Revou)</dd>
+                    <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">Alibaba Cloud Services (Alibaba)</dd>
+                    <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">Revou Tech Academy - Data & Software Engineering (Revou)</dd>
+                    <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">jQuery Dasar (Codepolitan)</dd>
+                    <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">UI/UX & Web Development (Infinite Learning)</dd>
                     </div>
             </div>
             <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
@@ -285,7 +287,7 @@ export default function Homepage(){
                     <div className="mt-10 flex items-center gap-x-6">
                         <a
                         href="https://www.linkedin.com/in/jovis-jocunda/"
-                        className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                        className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                         >
                         Jump to Linked.in
                         </a>
